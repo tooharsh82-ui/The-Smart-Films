@@ -1,0 +1,6 @@
+{
+  "name": "The Smart Films",
+  "description": "The Smart Films - Professional photography and cinematic videography studio based in Arrah, Bihar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

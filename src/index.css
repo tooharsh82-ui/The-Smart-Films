@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-lime-brand: #8CE828;
+  --color-lime-brand-hover: #7BD71B;
+  --color-lime-brand-light: #EBF9DC;
+  --color-lime-brand-border: #D7F2B3;
+  --color-dark-banner: #1C2431;
+  --color-dark-banner-card: #252F3F;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F6FBEE;
+  color: #1E293B;
+  overflow-x: hidden;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F8E7;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4E49B;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9FD75D;
+}
+
